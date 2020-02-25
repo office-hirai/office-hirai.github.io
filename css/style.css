@@ -53,6 +53,9 @@ h1 {
 }
 
 h2 {
+    font-family: dnp-shuei-mgothic-std, sans-serif;
+    font-weight: 600;
+    font-style: normal;
     font-size: 45px;
     font-weight: 300;
     color: #633991;
@@ -65,12 +68,18 @@ p.lineh-w {
 }
 
 h3 {
+    font-family: dnp-shuei-mgothic-std, sans-serif;
+    font-weight: 600;
+    font-style: normal;
     color: #633991;
     font-size: 33px;
     font-weight: 500;
 }
 
 h4 {
+    font-family: dnp-shuei-mgothic-std, sans-serif;
+    font-weight: 600;
+    font-style: normal;
     font-size: 20px;
     font-weight: 500;
     color: #633991;
@@ -356,6 +365,12 @@ header {
     line-height: 80px;
     font-weight: 300;
     transition: all 0.3s ease;
+}
+.circle-img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
 }
 
 @media (max-width:992px) {
